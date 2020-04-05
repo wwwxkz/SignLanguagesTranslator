@@ -1,0 +1,74 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #eeee;
+}
+
+#container {
+    margin: 80px;
+    margin-top: 0px;
+}
+
+#container > div {
+    margin-top: 60px;
+}
+
+#nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+#nav > div {
+    display: flex;
+    flex-direction: row;
+}
+
+#nav > div > a {
+    color: rebeccapurple;
+}
+
+#nav > div > div > a {
+    margin: 10px;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 400px;
+    background-color: goldenrod;
+}
+
+#selector {
+    flex: .2;
+    background-color: indigo;
+}
+
+#translator {  
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    background-color: maroon;
+}
+
+#input {
+    margin: 0px;
+    flex: 1;
+    resize: none;
+}
+
+#output {
+    flex: 1;
+    background-color: gray;
+}
+
+#output > h2 {
+    margin: 20px;
+}
+
+#sponsor {
+    background-color: gray;
+    height: 50px;
+}
